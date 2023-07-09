@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+#bckg{
+    position: relative;
+}
+header{
+    position: absolute;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: -950px;
+    background-color: #e0e0e0;
+    width: 100%;
+}
+.links{
+    display: inline;
+    word-spacing: 35px;
+    margin-left: 613px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Papyrus;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
+a:not(#skills):hover{
+    color: #c90000;
+}
+#skills{
+    color: #c90000;
+    border: 1px solid #c90000;
+    padding: 8px 30px;
+    border-radius: 15px;
+}
+#slide1{
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 50px;
+    width: 475px;
+}
+#slide2{
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 574px;
+    width: 500px;
+}
+#slide3{
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 1121px;
+    width: 519px;
+}
+p:first-of-type{
+    position: absolute;
+    font-family: "Lucida Handwriting";
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -789px;
+    margin-left: 164px;
+}
+p:nth-of-type(2){
+    position: absolute;
+    font-family: "Lucida Handwriting";
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -789px;
+    margin-left: 597px;
+}
+p:last-of-type{
+    position: absolute;
+    font-family: "Lucida Handwriting";
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -789px;
+    margin-left: 1309px;
+}
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Web Page</title>
+    <link rel="stylesheet" type="text/css" href="css/pocetna.css"/>
+</head>
+<body>
+
+<div class="container">
+    <img src="" id="image">
+    <script type="text/javascript">
+        let image = document.getElementById('image');
+        let images = ['background1.jpg', 'background2.jpg']
+        setInterval(function (){
+            let random = Math.floor(Math.random() * 2);
+            image.src = images[random];
+        }, 800);
+    </script>
+
+    <div class="name">Jana Ristevska</div>
+
+    <div class="link"><a id="view" href="html/main.html">View</a></div>
+</div>
+</body>
+</html>

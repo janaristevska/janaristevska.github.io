@@ -1,0 +1,87 @@
+body{
+    margin: 0;;
+}
+#map{
+    position: relative;
+    opacity: 0.5;
+}
+p:first-of-type{
+    position: absolute;
+    margin-left: 699px;
+    margin-top: -1261px;
+    font-size: 80px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-family: "Lucida Calligraphy";
+    color: #d71c1c;
+}
+#turkey1{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: -1091px;
+    z-index: 1;
+}
+#turkey2{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 220px;
+    margin-top: -1395px;
+    z-index: 2;
+}
+#turkey3{
+    position: absolute;
+    width: 250px;
+    height: 270px;
+    margin-left: 1321px;
+    margin-top: -1000px;
+    z-index: 2;
+}
+#turkey4{
+    position: absolute;
+    width: 250px;
+    height: 270px;
+    margin-left: 1256px;
+    margin-top: -1340px;
+    z-index: 2;
+}
+#turkey5{
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    margin-left: 780px;
+    margin-top: -1487px;
+    z-index: 2;
+}
+p:last-of-type{
+    position: absolute;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 602px;
+    margin-top: -1133px;
+    font-family: Garamond;
+    text-align: justify;
+}
+#flag{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    margin-top: -1258px;
+    margin-left: 565px;
+}
+a{
+    position: absolute;
+    margin-top: -815px;
+    margin-left: 735px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Lucida Handwriting";
+    border: 1px solid dimgray;
+    background-color: #f3c062;
+    padding: 10px 20px;
+}
+

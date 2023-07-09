@@ -1,0 +1,86 @@
+body{
+    margin: 0;;
+}
+#map{
+    position: relative;
+    opacity: 0.5;
+}
+p:first-of-type{
+    position: absolute;
+    margin-left: 1095px;
+    margin-top: -1351px;
+    margin-bottom: 0;
+    font-size: 80px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-family: "Lucida Calligraphy";
+}
+#egypt1{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    margin-left: 160px;
+    margin-top: -1200px;
+    z-index: 1;
+}
+#egypt2{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 437px;
+    margin-top: -1026px;
+    z-index: 3;
+}
+#egypt3{
+    position: absolute;
+    width: 250px;
+    height: 270px;
+    margin-left: 265px;
+    margin-top: -971px;
+    z-index: 2;
+}
+#egypt4{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    margin-left: 645px;
+    margin-top: -1404px;
+    z-index: 2;
+}
+#egypt5{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    margin-left: 421px;
+    margin-top: -1478px;
+    z-index: 2;
+}
+p:last-of-type{
+    position: absolute;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 1000px;
+    margin-top: -1200px;
+    font-family: Garamond;
+    text-align: justify;
+}
+#flag{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: -1351px;
+    margin-left: 977px;
+}
+a{
+    position: absolute;
+    margin-top: -850px;
+    margin-left: 1100px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Lucida Handwriting";
+    border: 1px solid dimgray;
+    background-color: #f3c062;
+    padding: 10px 20px;
+}

@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+#bckg{
+    position: relative;
+}
+header{
+    position: absolute;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: -950px;
+    background-color: #e0e0e0;
+    width: 100%;
+}
+.links{
+    display: inline;
+    word-spacing: 35px;
+    margin-left: 613px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Papyrus;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
+a:not(#contact):hover{
+     color: #c90000;
+ }
+#contact{
+    color: #c90000;
+    border: 1px solid #c90000;
+    padding: 8px 30px;
+    border-radius: 15px;
+}
+.social-icons{
+    color: black;
+    transition: color 0.2s;
+    margin: 0 10px;
+    font-size: 30px;
+}
+.social-icons:hover{
+    color: gray;
+}
+.icons{
+    margin-left: 698px;
+    margin-top: -289px;
+}
+#container{
+    position: absolute;
+    background-color: #e3d9d9;
+    border: 1px solid black;
+    width: 800px;
+    height: 450px;
+    margin-left: 430px;
+    margin-top: -800px;
+}
+.phone{
+    float: left;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.address{
+    float: right;
+    margin-right: 150px;
+    margin-top: 70px;
+}
+.email{
+    margin-left: 150px;
+    margin-top: 251px;
+}
+#phoneicon,
+#addressicon,
+#mailicon{
+    font-size: 30px;
+}
+.pae{
+    font-size: 25px;
+    font-weight: bold;
+}
+.inf{
+    margin-top: -13px;
+    font-size: 18px;
+}

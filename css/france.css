@@ -1,0 +1,105 @@
+body{
+    margin: 0;;
+}
+#map{
+    position: relative;
+    opacity: 0.5;
+}
+p:first-of-type{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -1380px;
+    margin-bottom: 0;
+    font-size: 80px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-family: "Lucida Calligraphy";
+    color: darkblue;
+}
+p:last-of-type{
+    position: absolute;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 240px;
+    margin-top: -1233px;
+    font-family: Garamond;
+    text-align: justify;
+}
+#france1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: -1400px;
+    margin-left: 950px;
+}
+#france2{
+    position: absolute;
+    width: 240px;
+    height: 200px;
+    margin-top: -1064px;
+    margin-left: 1350px;
+}
+#france3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: -1264px;
+    margin-left: 1350px;
+}
+#france4{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: -1400px;
+    margin-left: 1150px;
+}
+#france5{
+    position: absolute;
+    width: 200px;
+    height: 232px;
+    margin-top: -1000px;
+    margin-left: 1150px;
+}
+#france6{
+    position: absolute;
+    width: 272px;
+    height: 200px;
+    margin-top: -1200px;
+    margin-left: 1078px;
+}
+#france7{
+    position: absolute;
+    width: 191px;
+    height: 200px;
+    margin-top: -1200px;
+    margin-left: 887px;
+}
+#france8{
+    position: absolute;
+    width: 310px;
+    height: 200px;
+    margin-top: -1000px;
+    margin-left: 840px;
+}
+#flag{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: -1373px;
+    margin-left: 118px;
+}
+a{
+    position: absolute;
+    margin-top: -924px;
+    margin-left: 370px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Lucida Handwriting";
+    border: 1px solid dimgray;
+    background-color: #f3c062;
+    padding: 10px 20px;
+}
+
+

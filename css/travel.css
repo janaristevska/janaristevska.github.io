@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+#bckg{
+    position: relative;
+}
+header{
+    position: absolute;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: -950px;
+    background-color: #e0e0e0;
+    width: 100%;
+}
+.links{
+    display: inline;
+    word-spacing: 35px;
+    margin-left: 613px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Papyrus;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
+a:not(#travel):hover{
+    color: #c90000;
+}
+#travel{
+    color: #c90000;
+    border: 1px solid #c90000;
+    padding: 8px 30px;
+    border-radius: 15px;
+}
+#world-map{
+    position: absolute;
+    margin-left: 704px;
+    margin-top: -810px;
+}
+p:first-of-type{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 90px;
+    margin-top: -665px;
+    letter-spacing: 15px;
+    font-weight: bold;
+    font-family: "Lucida Handwriting";
+}
+p:nth-of-type(2){
+    position: absolute;
+    font-size: 40px;
+    margin-left: 55px;
+    margin-top: -579px;
+    letter-spacing: 15px;
+    font-weight: bold;
+    font-family: "Lucida Handwriting";
+}
+p:last-of-type{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 262px;
+    margin-top: -431px;
+}
+.pin1{
+    font-size: 40px;
+    margin-left: 1126px;
+    margin-top: -532px;
+}
+.pin2{
+    font-size: 40px;
+    margin-left: 1128px;
+    margin-top: -96px;
+}
+.pin3{
+    font-size: 40px;
+    margin-left: 1060px;
+    margin-top: -79px;
+}
+ion-icon{
+    color: #232222;
+}
